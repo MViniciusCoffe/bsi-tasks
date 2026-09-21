@@ -10,7 +10,4 @@ Neste diretório teremos as descrições das tarefas da disciplina e os links pa
 
 * MViniciusCoffe:
   * Link Tarefa 1 (issue): https://github.com/tacianosilva/bsi-tasks/issues/449
-  * Link `README.md`: [README do aluno](./MViniciusCoffe/README.md)
-* <username>:
-  * Link Tarefa 1 (issue):
-  * Link `tarefa01.md`:
+  * Link `tarefa01.md`: A tarefa está nessa [branch](https://github.com/MViniciusCoffe/bsi-tasks/tree/tarefa01-testes/MViniciusCoffe/%23449) e nesse [arquivo](tarefa01.md)
