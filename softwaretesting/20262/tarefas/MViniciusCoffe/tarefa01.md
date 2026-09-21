@@ -45,3 +45,9 @@
   - shift f11: Sai da função e volta para quem chamou
   - ctrl shift f5: Reinicia a sessão do zero
 - Console: No terminal inferior, é possível encontrar um debug console onde você pode digitar qualquer código de linguagem válido enquanto o programa está pausado para analisar variáveis, testar o tempo e rodar funções de teste
+5. O vídeo escolhido foi [Testes no React com Jest & Testing Library | Guia Completo](https://www.youtube.com/watch?v=0hVXjqHwvI0) do canal Felipe Rocha, eu achei um tutorial bem interessante e completo, com um conteúdo e linguagem fáceis de serem absorvidos, apesar do vídeo ser longo. O conteúdo do vídeo primeiramente se passa na explicação teórica do que são testes e como eles funcionam, quais as suas utilidades, os seus tipos entre outros, depois, é mostrado um exemplo no repositório [react-testing-video](https://github.com/felipemotarocha/react-testing-video). Apesar dele focar mais na aplicação dos testes do que no CRUD em si, ainda asism trabalha temas muito importantes para a nossa disciplina, como:
+- Conteúdo teórico básico para testes
+- Prática usando react, passando por algumas das etapas de testes (Unitário e Integração)
+- Testes de requisições com API e usa alguns mocks (através do MSW e do jest.fn)
+- Apresenta o Jest e RTL (react testing library)
+- Mostra como testar operações assíncronas e como forçar erros para testar se as mensagens saem corretamente
