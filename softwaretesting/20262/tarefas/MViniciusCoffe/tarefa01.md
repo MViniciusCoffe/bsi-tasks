@@ -28,3 +28,20 @@
   - Nodemon
   - Prettier
 3. O framework escolhido foi o jest. Sua escolha foi motivada pelo fato de ser um framework de testes criado pela Meta para ser usado com o React, assim oferecendo uma maior integração com o framework web. Além disso, o Jest oferece uma série de ferramentas, como a utilização de mocks por padrão, foco na simplicidade (zero-config), flexibilidade e em sua ampla utilização no mercado. Para mais informações: [Jest](https://jestjs.io/pt-BR/)
+4. Utilizo o VSCode pelo GitHub Codespaces, ou seja, uma versão completa do Visual Studio Code diretamente na nuvem. Sendo a versão completa, todos os recursos que tem no desktop também estão disponíveis no codespaces (Só alterando algumas teclas de atalho), incluindo os de testes, como gerenciamento e breakpoints, painéis de inspeção laterais, controle de depuração (Debug console), além de configurações adicionais no launch.json
+- Gerenciamento de breakpoints: Clicando a margem esquerda dos números das linhas
+  - Breakpoints comuns pausam o código assim que a linha é atingida
+  - Breakpoints condicionais só pausam se uma condição for verdadeira
+  - Hit count breakpoints pausam a linha após ser executadas um número x de vezes
+  - Logpoints não pausam a aplicação, apenas imprimem uma mensagem no menu
+- Painéis de inspeção geral: Quando seu código atinge um breakpoint, um painel a esquerda é desbloqueado para analise o estado da aplicação, aqui você avalia:
+  - Variáveis: Seu valor no escopo atual, permitindo alterar seus valores inclusive
+  - Vigia: Permite adicionar variáveis e expressões que você quer monitorar ao longo de todo fluxo
+  - Pilhas de chamadas: Mostra o caminho que seu código percorreu (teste estrutural de fato)
+- Controles:
+  - f5: Continua até o próximo breakpoint
+  - alt f10: executa próxima linha sem entrar em funções internas
+  - alt f11: Entra na função que está na linha atual para debugar seu interior
+  - shift f11: Sai da função e volta para quem chamou
+  - ctrl shift f5: Reinicia a sessão do zero
+- Console: No terminal inferior, é possível encontrar um debug console onde você pode digitar qualquer código de linguagem válido enquanto o programa está pausado para analisar variáveis, testar o tempo e rodar funções de teste
