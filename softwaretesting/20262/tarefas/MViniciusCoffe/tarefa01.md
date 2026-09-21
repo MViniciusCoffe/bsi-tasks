@@ -51,3 +51,8 @@
 - Testes de requisições com API e usa alguns mocks (através do MSW e do jest.fn)
 - Apresenta o Jest e RTL (react testing library)
 - Mostra como testar operações assíncronas e como forçar erros para testar se as mensagens saem corretamente
+6. Mock Objects (Ou apenas mocks) são objetos que simulam o como objetos reais devem se comportar de forma controlada, sendo usados principalmente para isolar a unidade que você está testando de suas dependências externas. Existem 4 motivos principais para usarmos mocks:
+- Isolamento: Garante que o código não quebre só por que a API está fora do ar ou que o banco caiu
+- Velocidade: Conectar a bancos as vezes consome mais tempo, e testes de unidade precisam ser rápidos
+- Previsibilidade: Você consegue forçar um mock a simular cenários difíceis no mundo real
+- Stateless: Um teste nunca deve salvar dados reais, ou enviar e-mails de verdade, ou descontar de cartões de crédito de verdade.
