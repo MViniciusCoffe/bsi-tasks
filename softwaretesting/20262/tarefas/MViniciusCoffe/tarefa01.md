@@ -16,7 +16,7 @@
   - jsonWebToken
   - pg
 - Backend:
-  - postgreSQL
+  - postgreSQL (Via supabase)
   - Node.js
   - Vercel (Hospedagem, antes era AWS por meio do AWS RDS)
 - Testes:
