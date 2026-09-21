@@ -2,6 +2,7 @@
 ### Aluno: Marcus Vinícius de Souza Azevedo.
 ### User: MViniciusCoffe
 ### E-mail: vinicius.azevedo.123@ufrn.edu.br
+### Link do repositório: https://github.com/MViniciusCoffe/SpendSmart
 ---
 
 ## Questões objetivas:
@@ -10,12 +11,12 @@
 - Frontend:
   - React
   - Vercel (Hospedagem)
+- Backend:
   - Cors
   - Express
   - dotEnv
   - jsonWebToken
   - pg
-- Backend:
   - postgreSQL (Via supabase)
   - Node.js
   - Vercel (Hospedagem, antes era AWS por meio do AWS RDS)
@@ -28,7 +29,7 @@
   - Nodemon
   - Prettier
 3. O framework escolhido foi o jest. Sua escolha foi motivada pelo fato de ser um framework de testes criado pela Meta para ser usado com o React, assim oferecendo uma maior integração com o framework web. Além disso, o Jest oferece uma série de ferramentas, como a utilização de mocks por padrão, foco na simplicidade (zero-config), flexibilidade e em sua ampla utilização no mercado. Para mais informações: [Jest](https://jestjs.io/pt-BR/)
-4. Utilizo o VSCode pelo GitHub Codespaces, ou seja, uma versão completa do Visual Studio Code diretamente na nuvem. Sendo a versão completa, todos os recursos que tem no desktop também estão disponíveis no codespaces (Só alterando algumas teclas de atalho), incluindo os de testes, como gerenciamento e breakpoints, painéis de inspeção laterais, controle de depuração (Debug console), além de configurações adicionais no launch.json
+4. Utilizo o VSCode pelo GitHub Codespaces diretamente no navegador, ou seja, uma versão completa do Visual Studio Code diretamente na nuvem. Sendo a versão completa, todos os recursos que tem no desktop também estão disponíveis no codespaces (Só alterando algumas teclas de atalho), incluindo os de testes, como gerenciamento e breakpoints, painéis de inspeção laterais, controle de depuração (Debug console), além de configurações adicionais no launch.json
 - Gerenciamento de breakpoints: Clicando a margem esquerda dos números das linhas
   - Breakpoints comuns pausam o código assim que a linha é atingida
   - Breakpoints condicionais só pausam se uma condição for verdadeira
@@ -45,12 +46,19 @@
   - shift f11: Sai da função e volta para quem chamou
   - ctrl shift f5: Reinicia a sessão do zero
 - Console: No terminal inferior, é possível encontrar um debug console onde você pode digitar qualquer código de linguagem válido enquanto o programa está pausado para analisar variáveis, testar o tempo e rodar funções de teste
-5. O vídeo escolhido foi [Testes no React com Jest & Testing Library | Guia Completo](https://www.youtube.com/watch?v=0hVXjqHwvI0) do canal Felipe Rocha, eu achei um tutorial bem interessante e completo, com um conteúdo e linguagem fáceis de serem absorvidos, apesar do vídeo ser longo. O conteúdo do vídeo primeiramente se passa na explicação teórica do que são testes e como eles funcionam, quais as suas utilidades, os seus tipos entre outros, depois, é mostrado um exemplo no repositório [react-testing-video](https://github.com/felipemotarocha/react-testing-video). Apesar dele focar mais na aplicação dos testes do que no CRUD em si, ainda asism trabalha temas muito importantes para a nossa disciplina, como:
+5. O vídeo escolhido foi [Testes no React com Jest & Testing Library | Guia Completo](https://www.youtube.com/watch?v=0hVXjqHwvI0) do canal Felipe Rocha, eu achei um tutorial bem interessante e completo, com um conteúdo e linguagem fáceis de serem absorvidos, apesar do vídeo ser longo. O conteúdo do vídeo primeiramente se passa na explicação teórica do que são testes e como eles funcionam, quais as suas utilidades, os seus tipos entre outros, depois, é mostrado um exemplo no repositório [react-testing-video](https://github.com/felipemotarocha/react-testing-video). Apesar dele focar mais na aplicação dos testes do que no CRUD em si, ainda assim trabalha temas muito importantes para a nossa disciplina, como:
 - Conteúdo teórico básico para testes
 - Prática usando react, passando por algumas das etapas de testes (Unitário e Integração)
 - Testes de requisições com API e usa alguns mocks (através do MSW e do jest.fn)
 - Apresenta o Jest e RTL (react testing library)
 - Mostra como testar operações assíncronas e como forçar erros para testar se as mensagens saem corretamente
+
+Como complemento ao tutorial de testes, este é um tutorial sobre como fazer um CRUD rapidamente pelo React usando o comando `$ yarn create vite`: https://www.youtube.com/watch?v=FqbgZ3lwGnM do canal Will Dev. Juntos, os dois tutoriais apresentam a construção de um CRUD e a aplicação de testes de software. Um resumo dos principais pontos dos vídeos inclui:
+- Construção de uma tela básica de listagem de usuários com nome e e-mail, com botões de atualização e exclusão, com um modal para os dois e validação de duplicidade
+- Setup com vite e template react, com chakra UI
+- Construção do componente com mudanças de estado e persistência com LocalStorage
+- Listagem responsiva e demonstração da remoção de itens
+
 6. Mock Objects (Ou apenas mocks) são objetos que simulam o como objetos reais devem se comportar de forma controlada, sendo usados principalmente para isolar a unidade que você está testando de suas dependências externas. Existem 4 motivos principais para usarmos mocks:
 - Isolamento: Garante que o código não quebre só por que a API está fora do ar ou que o banco caiu
 - Velocidade: Conectar a bancos as vezes consome mais tempo, e testes de unidade precisam ser rápidos
