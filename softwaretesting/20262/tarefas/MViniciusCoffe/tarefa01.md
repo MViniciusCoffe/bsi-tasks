@@ -27,3 +27,4 @@
 - DevDependencies
   - Nodemon
   - Prettier
+3. O framework escolhido foi o jest. Sua escolha foi motivada pelo fato de ser um framework de testes criado pela Meta para ser usado com o React, assim oferecendo uma maior integração com o framework web. Além disso, o Jest oferece uma série de ferramentas, como a utilização de mocks por padrão, foco na simplicidade (zero-config), flexibilidade e em sua ampla utilização no mercado. Para mais informações: [Jest](https://jestjs.io/pt-BR/)
