@@ -4,7 +4,7 @@ Neste diretório teremos as descrições das tarefas da disciplina e os links pa
 
 ## Tarefas
 
-* [Tarefa 01 - Teste de Unidade, Integração, Cobertura e CI](T1.md)
+* [Tarefa 01 - Teste de Unidade, Integração, Cobertura e CI](../T1.md)
 
 ## Respostas dos Discentes
 
