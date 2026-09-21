@@ -8,9 +8,7 @@ Neste diretório teremos as descrições das tarefas da disciplina e os links pa
 
 ## Respostas dos Discentes
 
-* <username>:
-  * Link Tarefa 1 (issue):
-  * Link `tarefa01.md`:
-* <username>:
-  * Link Tarefa 1 (issue):
-  * Link `tarefa01.md`:
+* MViniciusCoffe:
+  * Link Tarefa 1 (issue): https://github.com/tacianosilva/bsi-tasks/issues/449
+  * Link `tarefa01.md`: https://github.com/MViniciusCoffe/bsi-tasks/tree/tarefa01-testes/MViniciusCoffe
+  * Link do repositório: 
